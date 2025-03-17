@@ -1,0 +1,25 @@
+{
+  "name": "eureka",
+  "version": "1.0.0",
+  "description": "Este é o repositório oficial contendo a API do Eureka.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc --watch --outDir dist",
+    "dev": "nodemon ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "route-based-api": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  }
+}
